@@ -1,12 +1,45 @@
-# React + Vite
+# React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Quiz App** built with **React**. Users can enter their name, attempt a quiz with multiple-choice questions, view their results, and navigate to a dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **User Login:** Enter your name before starting the quiz.  
+- **Dynamic Questions:** Fetches questions from the Open Trivia API (fallback to local questions).  
+- **Multiple Choice:** Select one answer per question.  
+- **Score Tracking:** Shows current score while taking the quiz.  
+- **Results Page:** Displays final score and correct/incorrect answers.  
+- **Navigation:** Easily retake the quiz or go to the dashboard.  
+- **Responsive Design:** Works on desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Screenshots
+
+![Quiz Page](screenshots/quiz-page.png)  
+![Results Page](screenshots/results-page.png)  
+![Dashboard](screenshots/dashboard.png)  
+
+*(Add your own screenshots in a `screenshots/` folder.)*
+
+---
+
+## Technologies Used
+
+- **React** - Frontend framework  
+- **React Router** - Page navigation  
+- **Tailwind CSS** - Styling and responsive design  
+- **Local Storage** - Save username and quiz results  
+- **Open Trivia API** - Fetch random quiz questions  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/react-quiz-app.git
+cd react-quiz-app
