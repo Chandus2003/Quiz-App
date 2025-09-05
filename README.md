@@ -18,11 +18,11 @@ A simple and interactive **Quiz App** built with **React**. Users can enter thei
 
 ## Screenshots
 
-![Quiz Page](/assets/SS-1.png)
-![Dashboard](/assets/SS-2.png)
-![QUiz Page](/assets/SS-3.png)
-![Result Screenshot](/assets/ss-4.png)
-*(Add your own screenshots in a `screenshots/` folder.)*
+![Quiz Page](/assets/SS-1.jpg)
+![Dashboard](/assets/SS-2.jpg)
+![QUiz Page](/assets/SS-3.jpg)
+![Result Screenshot](/assets/SS-4.jpg)
+
 
 ---
 
